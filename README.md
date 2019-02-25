@@ -11,4 +11,4 @@ The page will crash as soon as the `Post` route is rendered, with a stack level 
 There are two ways to fix this:
 
 1) Remove the `meta-tags` gem
-2) Modify the `index.html` template for posts to not render as a collection
+2) Modify the `index.html` template for posts to not render as a collection, and instead render each post using a `.each`
